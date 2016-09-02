@@ -7,7 +7,7 @@ import { MoviesComponent } from './movies.component';
 
 describe('Component: Movies', () => {
   it('should create an instance', () => {
-    let component = new MoviesComponent();
+    let component = new MoviesComponent(null);
     expect(component).toBeTruthy();
   });
 });

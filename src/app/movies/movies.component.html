@@ -1,4 +1,4 @@
-<p>
+<!--<p>
   The are {{movies.length}} movies
 </p>
 
@@ -6,4 +6,9 @@
   <li *ngFor="let movie of movies">
    <app-movie [movie]="movie"></app-movie>
   </li>
-</ul>
+</ul>-->
+
+<div class="movies">
+  <app-movie *ngFor="let movie of movies" [movie]="movie">
+  </app-movie>
+</div>
