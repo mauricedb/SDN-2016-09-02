@@ -1,0 +1,9 @@
+<p>
+  The are {{movies.length}} movies
+</p>
+
+<ul>
+  <li *ngFor="let movie of movies">
+   <app-movie [movie]="movie"></app-movie>
+  </li>
+</ul>
