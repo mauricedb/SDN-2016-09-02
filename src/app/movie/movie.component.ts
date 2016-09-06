@@ -1,4 +1,8 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { 
+  Component, 
+  OnInit, 
+  Input 
+} from '@angular/core';
 
 @Component({
   moduleId: module.id,
@@ -6,7 +10,8 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: 'movie.component.html',
   styleUrls: ['movie.component.css']
 })
-export class MovieComponent implements OnInit {
+export class MovieComponent 
+  implements OnInit {
 
   @Input() movie;
   
